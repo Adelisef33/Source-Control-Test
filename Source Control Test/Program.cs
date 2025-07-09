@@ -61,5 +61,7 @@ class Program
         {
             Console.WriteLine($"This is loop iteration {i + 1}");
         }
+
+        Console.WriteLine("Loop completed successfully!");
     }
 }
