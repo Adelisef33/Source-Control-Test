@@ -49,5 +49,7 @@ class Program
         Console.WriteLine("Why Hello World! How are you today?");
 
         Console.WriteLine("Nothing beats a jet2 holiday!");
+
+        Console.WriteLine("What a lovely day it is today!");
     }
 }
