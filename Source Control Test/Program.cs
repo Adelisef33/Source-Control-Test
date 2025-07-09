@@ -6,6 +6,7 @@ class Program
     {
         HelloName();
         NumberGuesser();
+        Loop();
     }
 
     static void HelloName()
@@ -51,5 +52,14 @@ class Program
         Console.WriteLine("Nothing beats a jet2 holiday!");
 
         Console.WriteLine("What a lovely day it is today!");
+
+
+    }
+    static void Loop()
+    {
+        for (int i = 0; i < 5; i++)
+        {
+            Console.WriteLine($"This is loop iteration {i + 1}");
+        }
     }
 }
