@@ -8,7 +8,12 @@ static void Main()
 }
 
 //Going to implement a method that takes a name and prints a greeting
-
+static void HelloName()
+{
+    Console.Write("Please enter your name: ");
+    string name = Console.ReadLine();
+    Console.WriteLine($"Hello, {name}! How are you doing today?");
+}
 
 // Going to implement a method that takes input from the user to guess a number
 
